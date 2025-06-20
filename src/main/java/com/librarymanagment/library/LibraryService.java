@@ -9,7 +9,6 @@ public class LibraryService {
     @Autowired
     LibraryRepo repo;
     public void create(LibraryInventory inventory) {
-        System.out.println("working perfectly fine");
         repo.save(inventory);
     }
 }
