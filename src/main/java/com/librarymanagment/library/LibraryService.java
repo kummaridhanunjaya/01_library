@@ -10,6 +10,7 @@ public class LibraryService {
     @Autowired
     LibraryRepo repo;
     public void create(LibraryInventory inventory) {
+    	System.out.println("NEW LINE ADDED IN ECLIPSE");
         repo.save(inventory);
     }
 }
