@@ -10,7 +10,6 @@ public class LibraryService {
     @Autowired
     LibraryRepo repo;
     public void create(LibraryInventory inventory) {
-        System.out.println("New Line ADDED");
         repo.save(inventory);
     }
 }
